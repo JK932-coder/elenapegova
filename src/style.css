@@ -67,19 +67,8 @@ body {
   background-color: #d3d3d3;
   color: black;
 }
-
 .bullets {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none; /* removes bullet points */
-  padding: 0;
-  margin: 0;
-}
-
-.bullets li {
-  flex: 1;
-  padding: 0 10px;
-  text-align: center;
+  list-style-type: square;
 }
 .btn-primary {
   background-color: #007bff; /* Use your brand color */
