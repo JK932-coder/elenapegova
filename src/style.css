@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #e2dfdf;
+  background-color:white;
   padding: 40px;
   border-radius: 8px;
   text-align: center;
@@ -99,6 +99,11 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+padding: 20px;
+min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
@@ -122,5 +127,8 @@ body {
   padding: 40px 20px;
   border-radius: 12px;
 }
-
+.center {
+  width: 100%;
+  text-align: center;
+}
 
