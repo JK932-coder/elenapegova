@@ -4,7 +4,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 20px 50px 0;
+  margin: 50px 50px 0;
+  background-color:#f0f0f0;
 }
 /* Hero Section */
 
@@ -14,7 +15,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color:white;
+  background-color:#f0f0f0;
   padding: 40px;
   border-radius: 8px;
   text-align: center;
@@ -44,6 +45,7 @@ body {
 }
 
 
+
 /* Menu in top-left corner */
 .nav {
   position: absolute;
@@ -64,7 +66,6 @@ body {
 }
 
 .nav-link.active {
-  background-color: #d3d3d3;
   color: black;
 }
 .bullets {
@@ -119,5 +120,54 @@ min-height: 100px;
 .center {
   width: 100%;
   text-align: center;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.custom-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+.custom-card .icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.custom-card .separator {
+  width: 40px;
+  height: 4px;
+  margin: 0 auto 15px auto;
+  border-radius: 2px;
+}
+
+.card-blue .separator { background-color: #007bff; }
+.card-red .separator { background-color: #dc3545; }
+.card-yellow .separator { background-color: #ffc107; }
+.card-green .separator { background-color: #28a745; }
+
+.custom-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-card .card-text {
+  font-size: 0.95rem;
+  color: #555;
 }
 
