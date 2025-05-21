@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 50px 50px 0;
-background-color:#a2a8d3;
+background-color:#5fc9f3;
 }
 
   /* Hero Section */
@@ -18,7 +18,7 @@ background-color:#a2a8d3;
   padding: 40px;
   border-radius: 8px;
   text-align: center;
-  background-color: #e7eaf6;
+  background-color:white;
  }
 
 .hero-container {
@@ -39,7 +39,7 @@ background-color:#a2a8d3;
   text-align: right;
 }
 
-.hero-image, .custom img {
+.hero-image, img {
   max-width: 60%;
   height: auto;
   border-radius: 8px; /* Optional: for rounded corners */
@@ -63,17 +63,17 @@ background-color:#a2a8d3;
 .nav-link {
   text-decoration: none;
   padding: 8px 12px;
-  color: black;
+  color:black;
 }
 
 .nav-link.active {
-  color: black;
+  color: #1e549f;
 }
 .bullets {
   list-style-type: square;
 }
 .btn-primary {
-  background-color: #38598b; /* Use your brand color */
+  background-color:#2e79ba; /* Use your brand color */
   border: none;
   padding: 12px 30px;
   font-size: 1.1rem;
@@ -156,10 +156,10 @@ min-height: 100px;
   border-radius: 2px;
 }
 
-.card-blue .separator { background-color: #a2a8d3; }
-.card-red .separator { background-color: #a2a8d3; }
-.card-yellow .separator { background-color: #a2a8d3; }
-.card-green .separator { background-color: #a2a8d3; }
+.card-blue .separator { background-color: #2e79ba; }
+.card-red .separator { background-color: #2e79ba; }
+.card-yellow .separator { background-color: #2e79ba; }
+.card-green .separator { background-color: #2e79ba; }
 
 .custom-card .card-title {
   font-size: 1.2rem;
