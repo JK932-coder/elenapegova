@@ -223,7 +223,7 @@ min-height: 100px;
 }
 
 .team-image {
-  display: block;
+  display:block; 
   margin: 0 auto;
   max-width: 80%;
 }
