@@ -208,5 +208,18 @@ min-height: 100px;
   color: inherit;
   font-weight: normal;
 }
+.case-link {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  display: block;
+}
+
+.case-link:hover {
+  background-color: #e9ecef;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
 
 
