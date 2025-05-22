@@ -222,4 +222,9 @@ min-height: 100px;
   transform: translateY(-4px);
 }
 
+.team-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
 
